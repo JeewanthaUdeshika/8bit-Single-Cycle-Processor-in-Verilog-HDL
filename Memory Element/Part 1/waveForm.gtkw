@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Feb 23 03:38:00 2022
+[*]
+[dumpfile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 6\Part 1\cpu_wavedata.vcd"
+[dumpfile_mtime] "Tue Feb 22 22:51:14 2022"
+[dumpfile_size] 20127
+[savefile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 6\Part 1\waveForm.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -35 -35
+*-4.000000 22 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 197
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+cpu_tb.CLK
+@22
+cpu_tb.PC[31:0]
+cpu_tb.INSTRUCTION[31:0]
+@28
+cpu_tb.mycpu.WRITE
+cpu_tb.mycpu.READ
+cpu_tb.mycpu.BUSYWAIT
+@420
+cpu_tb.mycpu.regfile.\registers[3][7:0]
+cpu_tb.mycpu.regfile.\registers[4][7:0]
+cpu_tb.mycpu.regfile.\registers[5][7:0]
+cpu_tb.mycpu.regfile.\registers[6][7:0]
+cpu_tb.mycpu.regfile.\registers[7][7:0]
+@22
+cpu_tb.mycpu.dataMem1.\memory_array[0][7:0]
+cpu_tb.mycpu.dataMem1.\memory_array[1][7:0]
+[pattern_trace] 1
+[pattern_trace] 0

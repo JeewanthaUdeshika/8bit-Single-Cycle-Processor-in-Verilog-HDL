@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Feb 01 19:29:31 2022
+[*]
+[dumpfile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 05\Part 4\cpu_wavedata.vcd"
+[dumpfile_mtime] "Tue Feb 01 18:30:07 2022"
+[dumpfile_size] 23642
+[savefile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 05\Part 4\CPU.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -1 -1
+*-4.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[treeopen] cpu_tb.mycpu.pc1.
+[sst_width] 197
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+cpu_tb.CLK
+@420
+cpu_tb.PC[31:0]
+@22
+cpu_tb.mycpu.pc1.PC_val[31:0]
+cpu_tb.INSTRUCTION[31:0]
+cpu_tb.mycpu.regfile.OUT1[7:0]
+cpu_tb.mycpu.regfile.OUT2[7:0]
+cpu_tb.mycpu.twos_comp1.sign[7:0]
+@28
+cpu_tb.mycpu.ALU1.ZERO
+cpu_tb.mycpu.control.BRANCH
+cpu_tb.mycpu.control.JUMP
+@22
+cpu_tb.mycpu.pc1.ADDRESS[31:0]
+cpu_tb.mycpu.pc1.ADDRESS_JUMP[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

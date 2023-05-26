@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Feb 09 03:51:43 2022
+[*]
+[dumpfile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 5\Part 5\cpu_wavedata.vcd"
+[dumpfile_mtime] "Tue Feb 08 16:37:58 2022"
+[dumpfile_size] 34659
+[savefile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 5\Part 5\ShiftResult.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -2 0
+*-4.000000 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 197
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+cpu_tb.mycpu.CLK
+@22
+cpu_tb.mycpu.PC[31:0]
+cpu_tb.mycpu.PC_VALUE[31:0]
+cpu_tb.mycpu.INSTRUCTION[31:0]
+cpu_tb.mycpu.REGOUT1[7:0]
+cpu_tb.mycpu.REGOUT2[7:0]
+@28
+cpu_tb.mycpu.SHIFT_TYPE
+cpu_tb.mycpu.ALU1.TEMP5[7:0]
+cpu_tb.mycpu.REGISTERFILE.\registers[4][7:0]
+cpu_tb.mycpu.REGISTERFILE.\registers[5][7:0]
+cpu_tb.mycpu.REGISTERFILE.\registers[6][7:0]
+cpu_tb.mycpu.REGISTERFILE.\registers[7][7:0]
+@200
+-
+-loadi 4 0x0F
+-loadi 5 0x0A
+-sll 6 4 0x02
+-srl 8 5 0x02
+[pattern_trace] 1
+[pattern_trace] 0

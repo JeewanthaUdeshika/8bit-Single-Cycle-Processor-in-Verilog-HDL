@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Fri Mar 04 03:44:55 2022
+[*]
+[dumpfile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 6\Part 2\cpu_wavedata.vcd"
+[dumpfile_mtime] "Thu Mar 03 19:56:24 2022"
+[dumpfile_size] 24961
+[savefile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 6\Part 2\WaveForm.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -9 -9
+*-16.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 197
+[signals_width] 206
+[sst_expanded] 1
+[sst_vpaned_height] 220
+@28
+cpu_tb.CLK
+@22
+cpu_tb.PC[31:0]
+cpu_tb.INSTRUCTION[31:0]
+@28
+cpu_tb.mycpu.BUSYWAIT
+cpu_tb.mycpu.dcache1.mem_busywait
+@22
+[color] 5
+cpu_tb.mycpu.regfile.\registers[0][7:0]
+[color] 5
+cpu_tb.mycpu.regfile.\registers[1][7:0]
+[color] 5
+cpu_tb.mycpu.regfile.\registers[2][7:0]
+[color] 5
+cpu_tb.mycpu.regfile.\registers[3][7:0]
+[color] 5
+cpu_tb.mycpu.regfile.\registers[4][7:0]
+[color] 5
+cpu_tb.mycpu.regfile.\registers[5][7:0]
+[color] 5
+cpu_tb.mycpu.regfile.\registers[6][7:0]
+@28
+cpu_tb.mycpu.dcache1.hit
+@200
+-
+-loadi 0 0x09
+-loadi 1 0x01
+-swd 0 1 
+-swi 1 0x00  
+-lwd 2 1
+-lwd 3 1
+-sub 4 0 1
+-swi 4 0x02
+-lwi 5 0x02
+-swi 4 0x20
+-lwi 6 0x20
+[pattern_trace] 1
+[pattern_trace] 0

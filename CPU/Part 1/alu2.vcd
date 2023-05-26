@@ -1,0 +1,139 @@
+$date
+	Wed Jan 12 10:21:43 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! Result [7:0] $end
+$var reg 8 " Data1 [7:0] $end
+$var reg 8 # Data2 [7:0] $end
+$var reg 3 $ Select [2:0] $end
+$scope module ALU1 $end
+$var wire 8 % DATA1 [7:0] $end
+$var wire 8 & DATA2 [7:0] $end
+$var wire 3 ' SELECT [2:0] $end
+$var wire 8 ( temp4 [7:0] $end
+$var wire 8 ) temp5 [7:0] $end
+$var wire 8 * temp6 [7:0] $end
+$var wire 8 + temp7 [7:0] $end
+$var wire 8 , temp3 [7:0] $end
+$var wire 8 - temp2 [7:0] $end
+$var wire 8 . temp1 [7:0] $end
+$var wire 8 / temp0 [7:0] $end
+$var wire 8 0 RESULT [7:0] $end
+$scope module ADD1 $end
+$var wire 8 1 data1 [7:0] $end
+$var wire 8 2 data2 [7:0] $end
+$var wire 8 3 result [7:0] $end
+$upscope $end
+$scope module AND1 $end
+$var wire 8 4 data1 [7:0] $end
+$var wire 8 5 data2 [7:0] $end
+$var wire 8 6 result [7:0] $end
+$upscope $end
+$scope module FORWARD1 $end
+$var wire 8 7 data [7:0] $end
+$var wire 8 8 result [7:0] $end
+$upscope $end
+$scope module Mux $end
+$var wire 8 9 D0 [7:0] $end
+$var wire 8 : D1 [7:0] $end
+$var wire 8 ; D2 [7:0] $end
+$var wire 8 < D4 [7:0] $end
+$var wire 8 = D5 [7:0] $end
+$var wire 8 > D6 [7:0] $end
+$var wire 8 ? D7 [7:0] $end
+$var wire 3 @ Select [2:0] $end
+$var wire 8 A D3 [7:0] $end
+$var reg 8 B out [7:0] $end
+$upscope $end
+$scope module OR1 $end
+$var wire 8 C data1 [7:0] $end
+$var wire 8 D data2 [7:0] $end
+$var wire 8 E result [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx E
+b1111 D
+b1010101 C
+bx B
+bx A
+b0 @
+bz ?
+bz >
+bz =
+bz <
+bx ;
+bx :
+bx 9
+bx 8
+b1111 7
+bx 6
+b1111 5
+b1010101 4
+bx 3
+b1111 2
+b1010101 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bz +
+bz *
+bz )
+bz (
+b0 '
+b1111 &
+b1010101 %
+b0 $
+b1111 #
+b1010101 "
+bx !
+$end
+#1
+b1011111 ,
+b1011111 A
+b1011111 E
+b101 -
+b101 6
+b101 ;
+b1111 !
+b1111 0
+b1111 B
+b1111 /
+b1111 8
+b1111 9
+#2
+b1100100 .
+b1100100 3
+b1100100 :
+#6
+b1100100 !
+b1100100 0
+b1100100 B
+b1 $
+b1 '
+b1 @
+#9
+b101 !
+b101 0
+b101 B
+b10 $
+b10 '
+b10 @
+#12
+b1011111 !
+b1011111 0
+b1011111 B
+b11 $
+b11 '
+b11 @

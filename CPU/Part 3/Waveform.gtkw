@@ -1,0 +1,52 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Jan 25 16:59:44 2022
+[*]
+[dumpfile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 05\Part 3\cpu_wavedata.vcd"
+[dumpfile_mtime] "Tue Jan 25 16:35:15 2022"
+[dumpfile_size] 14496
+[savefile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 05\Part 3\Waveform.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -1 -1
+*-4.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 197
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+cpu_tb.mycpu.CLK
+cpu_tb.mycpu.RESET
+@22
+cpu_tb.mycpu.PC[31:0]
+cpu_tb.mycpu.pc1.PC_val[31:0]
+cpu_tb.mycpu.INSTRUCTION[31:0]
+@28
+cpu_tb.mycpu.READREG1[2:0]
+cpu_tb.mycpu.READREG2[2:0]
+@22
+cpu_tb.mycpu.REGOUT1[7:0]
+cpu_tb.mycpu.REGOUT2[7:0]
+cpu_tb.mycpu.negative[7:0]
+cpu_tb.mycpu.IMMEDIATEVal[7:0]
+cpu_tb.mycpu.ALUOUT[7:0]
+cpu_tb.mycpu.regfile.\registers[0][7:0]
+cpu_tb.mycpu.regfile.\registers[1][7:0]
+cpu_tb.mycpu.regfile.\registers[2][7:0]
+cpu_tb.mycpu.regfile.\registers[3][7:0]
+cpu_tb.mycpu.regfile.\registers[4][7:0]
+cpu_tb.mycpu.regfile.\registers[5][7:0]
+cpu_tb.mycpu.regfile.\registers[6][7:0]
+cpu_tb.mycpu.regfile.\registers[7][7:0]
+@c00028
+cpu_tb.mycpu.WRITEREG[2:0]
+@28
+(0)cpu_tb.mycpu.WRITEREG[2:0]
+(1)cpu_tb.mycpu.WRITEREG[2:0]
+(2)cpu_tb.mycpu.WRITEREG[2:0]
+@1401200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

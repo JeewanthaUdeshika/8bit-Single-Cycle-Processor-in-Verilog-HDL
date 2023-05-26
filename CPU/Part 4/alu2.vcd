@@ -1,0 +1,179 @@
+$date
+	Sun Jan 30 18:22:26 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! zero $end
+$var wire 8 " Result [7:0] $end
+$var reg 8 # Data1 [7:0] $end
+$var reg 8 $ Data2 [7:0] $end
+$var reg 3 % Select [2:0] $end
+$scope module ALU1 $end
+$var wire 8 & DATA1 [7:0] $end
+$var wire 8 ' DATA2 [7:0] $end
+$var wire 3 ( SELECT [2:0] $end
+$var wire 8 ) temp4 [7:0] $end
+$var wire 8 * temp5 [7:0] $end
+$var wire 8 + temp6 [7:0] $end
+$var wire 8 , temp7 [7:0] $end
+$var wire 8 - temp3 [7:0] $end
+$var wire 8 . temp2 [7:0] $end
+$var wire 8 / temp1 [7:0] $end
+$var wire 8 0 temp0 [7:0] $end
+$var wire 8 1 RESULT [7:0] $end
+$var reg 1 ! ZERO $end
+$scope module ADD1 $end
+$var wire 8 2 data1 [7:0] $end
+$var wire 8 3 data2 [7:0] $end
+$var wire 8 4 result [7:0] $end
+$upscope $end
+$scope module AND1 $end
+$var wire 8 5 data1 [7:0] $end
+$var wire 8 6 data2 [7:0] $end
+$var wire 8 7 result [7:0] $end
+$upscope $end
+$scope module FORWARD1 $end
+$var wire 8 8 data [7:0] $end
+$var wire 8 9 result [7:0] $end
+$upscope $end
+$scope module Mux $end
+$var wire 8 : D0 [7:0] $end
+$var wire 8 ; D1 [7:0] $end
+$var wire 8 < D2 [7:0] $end
+$var wire 8 = D4 [7:0] $end
+$var wire 8 > D5 [7:0] $end
+$var wire 8 ? D6 [7:0] $end
+$var wire 8 @ D7 [7:0] $end
+$var wire 3 A Select [2:0] $end
+$var wire 8 B D3 [7:0] $end
+$var reg 8 C out [7:0] $end
+$upscope $end
+$scope module OR1 $end
+$var wire 8 D data1 [7:0] $end
+$var wire 8 E data2 [7:0] $end
+$var wire 8 F result [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx F
+b1111 E
+b1010101 D
+bx C
+bx B
+b0 A
+bz @
+bz ?
+bz >
+bz =
+bx <
+bx ;
+bx :
+bx 9
+b1111 8
+bx 7
+b1111 6
+b1010101 5
+bx 4
+b1111 3
+b1010101 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bz ,
+bz +
+bz *
+bz )
+b0 (
+b1111 '
+b1010101 &
+b0 %
+b1111 $
+b1010101 #
+bx "
+x!
+$end
+#1
+b1011111 -
+b1011111 B
+b1011111 F
+b101 .
+b101 7
+b101 <
+b1111 "
+b1111 1
+b1111 C
+b1111 0
+b1111 9
+b1111 :
+#2
+0!
+b1100100 /
+b1100100 4
+b1100100 ;
+#6
+b1100100 "
+b1100100 1
+b1100100 C
+b1 %
+b1 (
+b1 A
+#9
+b101 "
+b101 1
+b101 C
+b10 %
+b10 (
+b10 A
+#12
+b1011111 "
+b1011111 1
+b1011111 C
+b11 %
+b11 (
+b11 A
+#15
+b1100100 "
+b1100100 1
+b1100100 C
+b11110001 $
+b11110001 '
+b11110001 3
+b11110001 6
+b11110001 8
+b11110001 E
+b1111 #
+b1111 &
+b1111 2
+b1111 5
+b1111 D
+b1 %
+b1 (
+b1 A
+#16
+b1 .
+b1 7
+b1 <
+b11111111 -
+b11111111 B
+b11111111 F
+b11110001 0
+b11110001 9
+b11110001 :
+#17
+1!
+b0 "
+b0 1
+b0 C
+b0 /
+b0 4
+b0 ;

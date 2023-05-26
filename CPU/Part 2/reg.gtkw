@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Thu Jan 20 07:02:56 2022
+[*]
+[dumpfile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 05\Part 2\reg_file_wavedata.vcd"
+[dumpfile_mtime] "Tue Jan 11 10:45:12 2022"
+[dumpfile_size] 1380
+[savefile] "E:\Engineering\Semester 4\Computer Architecture\Lab\Lab 05\Part 2\reg.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 239 -3
+*-4.624433 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] reg_file_tb.
+[sst_width] 197
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@22
+reg_file_tb.REGOUT1[7:0]
+reg_file_tb.REGOUT2[7:0]
+@29
+reg_file_tb.CLK
+[pattern_trace] 1
+[pattern_trace] 0
